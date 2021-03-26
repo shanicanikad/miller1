@@ -22,13 +22,13 @@ function HomePage() {
             </a>
         </div>
 
-        <div>
-        <a className="multi">Multi-Sport
-        <img src={pic1} className="sportsPic" /></a>
-
-        <a className="multi">Kid Fitness
-        <img src={pic2} className="sportsPic" /></a>
-        </div>
+        
+        <h2 className="multi">Multi-Sport</h2>
+        <img src={pic1} className="sportsPic" />
+        
+        <h2 className="multi">Kid Fitness</h2>
+        <img src={pic2} className="sportsPic" />
+      
       
         <Subscribe/>
       </div>

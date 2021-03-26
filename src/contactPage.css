@@ -1,11 +1,13 @@
-.here {
-    text-align: left;
+.here1, .here2, .here3 {
+    margin: 50px;
 }
+
+
 
 .contactMiller {
     text-align: left;
-    color: black;
-    padding-top: 30px;
+    color: gold;
+    padding-top: 100px;
     padding-left: 20px
 }
 

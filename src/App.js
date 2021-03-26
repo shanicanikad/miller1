@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("www.http://localhost:8000/Sports/", {
+    fetch("https://sdsportsapi.herokuapp.com/Sports", {
       headers: {
         Accept: "application/json",
       },

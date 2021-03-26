@@ -14,10 +14,17 @@ class contactPage extends Component {
             <div className="contacts">
             <Nav /> 
             <h1 className= "contactMiller">Let's Get Connected!</h1>
-                <div class="here">
+                <div class="here1">
                 <input type="text" placeholder="Full name" name="fullName" required />
+                </div>
+                <div class="here2">
                 <input type="text" placeholder="Phone Number" name="number" required />
+                </div>
+                <div class="here3">
                 <input type="text" placeholder="Email address" name="mail" required />
+                </div>
+                
+                <div>
                     <button onClick={() => alert("We will be in touch soon!")}> Click Here </button>
                 </div>
             </div>

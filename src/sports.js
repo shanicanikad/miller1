@@ -19,18 +19,17 @@ class Sports extends Component {
             <div className="one">
                 <Nav />
                 <h1>MR. MILLER'S SPORTS CLUB</h1>
-                <h3>Sports</h3>
 
                 <div className="sportInfo1">
                     {this.props.data.length !== 0
                         ? this.props.data.map((item) => (
                             <div class="info1">
-                                <a><p>{item.sport}</p>
-                                <p>{item.image_url}</p>
-                                <p>{item.info}</p>
-                                <div className="location">{item.location1.map(sport => (<div> <p>Where: {sport.place}</p> <p>Age: {sport.ages} </p> <p>Days: {sport.days}</p> <p><button onClick={() => alert ("Your Entry Has Been Recorded.")}>Click to Schedule</button></p> </div>))} </div>
-                                <div className="location">{item.location2.map(sport => (<div> <p>Where: {sport.place}</p> <p>Age: {sport.ages} </p> <p>Days: {sport.days}</p> <p><button onClick={() => alert ("Your Entry Has Been Recorded.")}>Click to Schedule</button></p> </div>))} </div>
-                            </a>
+                                <a><p class="sport">{item.sport}</p>
+                                    <img src={item.image_url} />
+                                    <p>{item.info}</p>
+                                    <div className="location1">{item.location1.map(sport => (<div class="box1"> <p>Where: {sport.place}</p> <p>Age: {sport.ages} </p> <p>Days: {sport.days}</p> <p>Times: {sport.times}</p> <p><button onClick={() => alert("Your Entry Has Been Recorded.")}>Click to Schedule</button></p> </div>))} </div>
+                                    <div className="location2">{item.location2.map(sport => (<div class="box2"> <p>Where: {sport.place}</p> <p>Age: {sport.ages} </p> <p>Days: {sport.days}</p><p>Times: {sport.times}</p> <p><button onClick={() => alert("Your Entry Has Been Recorded.")}>Click to Schedule</button></p> </div>))} </div>
+                                </a>
                             </div>
                         ))
                         : null}

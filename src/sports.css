@@ -1,21 +1,38 @@
 body {
-    background-image: url("https://img4.goodfon.com/wallpaper/nbig/a/8b/vector-blue-squares-abstract-background-geometric.jpg");
+    background-image: url("https://www.summitquesta.com/wp-content/uploads/2018/12/sports-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0
 }
 
-.info1 {
-    border: 2px solid black;
-    margin: 30px;
-}
 
 p {
     padding: 20px
 }
 
-.sportInfo1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.location1, .location2 {
+    border: 2px solid gold
 }
 
+.sport {
+    font-size: 50px;
+    font-weight: bolder;
+    color: gold
+}
+
+h1 {
+    color: white;
+    padding-top: 30px
+}
+
+h3 {
+    color: white
+}
+
+.box1, .box2 {
+    border: 2px solid gold
+}
+
+.location1, .location2 {
+    text-align: left;
+}
