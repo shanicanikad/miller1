@@ -19,6 +19,7 @@ class Sports extends Component {
             <div className="one">
                 <Nav />
                 <h1>MR. MILLER'S SPORTS CLUB</h1>
+                <h3>Available Sports</h3>
 
                 <div className="sportInfo1">
                     {this.props.data.length !== 0
