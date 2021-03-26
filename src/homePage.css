@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://media.gettyimages.com/vectors/seamless-sports-background-vector-id481932811");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0
+}
+a {
+    padding: 50px;
+    text-decoration: none;
+    color:black;
+    margin-top: 100px;
+}
+
+.multi {
+    padding-top: 100px; 
+    font-weight: 900;
+    font-size: 50px
+}
+
+.sportsPic {
+    height: 100%;
+    width: 100%
+}
+footer {
+    font-size: 10px;
+}
