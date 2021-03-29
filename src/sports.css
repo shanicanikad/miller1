@@ -5,6 +5,9 @@ body {
     margin: 0
 }
 
+h5, h2 {
+    color: greenyellow
+}
 
 p {
     padding: 20px

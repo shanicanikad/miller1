@@ -19,6 +19,8 @@ class Sports extends Component {
             <div className="one">
                 <Nav />
                 <h1>MR. MILLER'S SPORTS CLUB</h1>
+                <h5>**Spots are limited; First come first served**</h5>
+                <h2>20 participants per class</h2>
                 <h3>Available Sports</h3>
 
                 <div className="sportInfo1">
