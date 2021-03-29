@@ -5,8 +5,7 @@ import ContactPage from "./contactPage";
 import Sports from "./sports";
 
 
-import { HashRouter, Switch, Route } from "react-router-dom";
-
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 class App extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <HashRouter>
+          <Router>
             <Route
               exact
               path="/"
@@ -39,21 +38,17 @@ class App extends Component {
               }}
             />
             <Switch>
-              <Route exact path="/Sports">
-                <Sports data={this.state.sportsJson} />
-              </Route>
-              <Route exact path="/add">
-            
+              <Route path="/sports">
+                <Sports data={this.state.sportsJson} />            
               </Route>
               <Route
-              exact
               path="/contact"
               render={() => {
                 return <ContactPage />;
               }}
               />
             </Switch>
-          </HashRouter>
+          </Router>
         </div>
       </div>
     );

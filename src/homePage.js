@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link, Route, Switch, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./homePage.css";
 import pic1 from "../src/Images/kickball.jpg";
 import pic2 from "../src/Images/hurdles.jpg";
@@ -14,12 +14,12 @@ function HomePage() {
       <div className="container">
         <h1 className="headline">Welcome to Mr. Miller's Sports Club! Let's Get Healthy Together!</h1>
         <div className="links">
-          <a href="/sports" className="link">
+          <Link to= "/sports" className="link">
             Sports
-           </a>
-          <a href="/contact" className="link">
+           </Link>
+          <Link to="/contact" className="link">
             Contact
-            </a>
+            </Link>
         </div>
 
         
