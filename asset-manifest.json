@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/miller1/static/css/main.6f5948c0.chunk.css",
+    "main.js": "/miller1/static/js/main.38a32395.chunk.js",
+    "main.js.map": "/miller1/static/js/main.38a32395.chunk.js.map",
+    "runtime-main.js": "/miller1/static/js/runtime-main.99547f63.js",
+    "runtime-main.js.map": "/miller1/static/js/runtime-main.99547f63.js.map",
+    "static/js/2.7ec6fdd0.chunk.js": "/miller1/static/js/2.7ec6fdd0.chunk.js",
+    "static/js/2.7ec6fdd0.chunk.js.map": "/miller1/static/js/2.7ec6fdd0.chunk.js.map",
+    "static/js/3.33841001.chunk.js": "/miller1/static/js/3.33841001.chunk.js",
+    "static/js/3.33841001.chunk.js.map": "/miller1/static/js/3.33841001.chunk.js.map",
+    "index.html": "/miller1/index.html",
+    "static/css/main.6f5948c0.chunk.css.map": "/miller1/static/css/main.6f5948c0.chunk.css.map",
+    "static/js/2.7ec6fdd0.chunk.js.LICENSE.txt": "/miller1/static/js/2.7ec6fdd0.chunk.js.LICENSE.txt",
+    "static/media/hurdles.28b596a7.jpg": "/miller1/static/media/hurdles.28b596a7.jpg",
+    "static/media/kickball.6d1b7aa9.jpg": "/miller1/static/media/kickball.6d1b7aa9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99547f63.js",
+    "static/js/2.7ec6fdd0.chunk.js",
+    "static/css/main.6f5948c0.chunk.css",
+    "static/js/main.38a32395.chunk.js"
+  ]
+}
